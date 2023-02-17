@@ -1,0 +1,23 @@
+/* Carousel config*/
+
+.carousel-control {
+    height: 33em;
+    width: 100%;
+    
+}
+
+.carousel-control_image {
+    background: url(/imgs/teste2.jpg) center/cover no-repeat;
+}
+
+@media (max-width: 576px) {
+    .carousel-control {
+        height: 20em;
+    }
+}
+
+/* Imagem programacao*/
+
+.img-programacao {
+    background-image: url(/imgs/programacao-fevereiro.jpg);
+}
