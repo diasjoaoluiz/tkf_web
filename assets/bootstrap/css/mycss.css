@@ -10,14 +10,14 @@
     background: url(/imgs/teste2.jpg) center/cover no-repeat;
 }
 
+@media (min-width: 992px) {
+    .control-car {
+        padding-right: 0;
+    }
+}
+
 @media (max-width: 576px) {
     .carousel-control {
         height: 20em;
     }
-}
-
-/* Imagem programacao*/
-
-.img-programacao {
-    background-image: url(/imgs/programacao-fevereiro.jpg);
 }
