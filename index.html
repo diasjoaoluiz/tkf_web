@@ -4,86 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.rtl.css">-->
     <link rel="stylesheet" href="../assets/bootstrap/css/mycss.css">
     <title>Pagina Inicial</title>
 </head>
 <body>
-    <div class="navbar navbar-expand-lg bg-dark">
+    <!--Inicio navbar-->
+    <nav class="navbar navbar-expand-lg colors-3" id="navbarNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="float-start" src="./imgs/icon_teste.png" alt="TKF-Icon" width="50px" height="50px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="ps-2 collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#">eventos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#">loja</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#">contato</a>
-                  </li>
-                </ul>
-              </div>          
+            <a class="navbar-brand" href="#">
+                <img src="/imgs/logo-f.png" alt="Bootstrap" width="40%" height="40%">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-white" href="#">Features</a>
+              <a class="nav-link text-white" href="#">Pricing</a>
+              <a class="nav-link text-white">Disabled</a>
+            </div>
+          </div>
         </div>
-    </div>
+    </nav>
+    <!--Fim navbar-->
 
     <main>
-        <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide pt-4" data-bs-ride="true">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner carousel-control">
-                <div class="carousel-item active h-100 carousel-control_image">
-                    
-                </div>
-                <div class="carousel-item h-100 carousel-control_image">
-                    
-                </div>
-                <div class="carousel-item h-100 carousel-control_image">
-                    
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon text-bg-dark rounded" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon text-bg-dark rounded" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-            <div class="container pt-2 bg-success">
-                <div class="row">
-                    <div class="">
-                        <p class="fs-1 text-uppercase">Nos somos os The Kepers, jovens da Quadrangular Vila Helena</p>
+        <!-- Inicio Carrossel-1-->
+        <div class="colors-1">
+            <div class="container pb-5">
+                <div id="carouselExampleIndicators" class="carousel slide pt-4" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
+                    <div class="carousel-inner carousel-control">
+                    <div class="carousel-item active h-100 carousel-control_image-1">
+                        
+                    </div>
+                    <div class="carousel-item h-100 carousel-control_image-2">
+                        
+                    </div>
+                        <a target="_blank" href="https://chat.whatsapp.com/B91gPpFkijTCxH3uZ74LUo"><div class="carousel-item h-100 carousel-control_image-3"></div></a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon text-bg-dark rounded" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon text-bg-dark rounded" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Fim Carrossel-1-->
+        
+        <!--Inicio sobre The Keepers-->
+        <div class="colors-degrade-1">
+            <div class="pt-5">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <p class="fs-3 text-break pb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestiae dolores beatae, deserunt nobis dignissimos expedita quibusdam ab laudantium assumenda. Autem doloribus placeat ipsa rerum voluptatum at molestias impedit ab!</p>
-                            <div class="pt-5">
-                                <button type="button" class="btn btn-primary btn-lg">Veja mais</button>
+                        <div class="">
+                            <p class="fs-1 text-uppercase text-white fonts-1">Nos somos os The Keepers, jovens da Quadrangular Vila Helena</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="colors-1 rounded">
+                                    <p class="fs-3 lh-md pb-3 text-white fonts-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestiae dolores beatae, deserunt nobis dignissimos expedita quibusdam ab laudantium assumenda. Autem doloribus placeat ipsa rerum voluptatum at molestias impedit ab!</p>
+                                </div>
+                                <div class="pt-5">
+                                    <button type="button" class="btn btn-lg colors-3 text-white">Veja mais</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pb-5">
+                                <img class="float-end" src="imgs/tkf_1.jpg" alt="" width="425" height="425">
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <img class="float-end" src="imgs/tkf_1.jpg" alt="" width="425" height="425">
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!--Fim sobre The Keepers-->
 
+        <!--Inicio sobre IEQ-VH-->
+        <div class="bg-warning">
             <div class="container pt-2 bg-warning">
                 <div class="row">
                     <div>
-                        <p class="fs-1 text-uppercase">quadrangular vila helena, ** anos transformando vidas</p>
+                        <p class="fs-1 text-uppercase">quadrangular vila helena, 46 anos transformando vidas</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
@@ -95,11 +112,14 @@
                         <div class="col-lg-6">
                             <img class="float-end" src="imgs/tkf_1.jpg" alt="" width="425" height="425">
                         </div>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!--Fim sobre IEQ-VH-->
 
+        <!--Inicio carrossel-2-->
+        <div class="bg-danger">
             <div class="pt-4">
                 <div class="container bg-danger">
                     <div class="row">
@@ -124,32 +144,44 @@
                     </div>
                 </div>
             </div>
-            
         </div>
+        <!--Fim carrossel-2-->
+         
     </main>
-    <footer class="container-fluid bg-dark">
-        <div class="row pt-5 pb-5">
-            <section class="col-lg-2">
+
+    <!--Inicio footer-->
+    <footer class="colors-1">
+        <div class="container">
+            <div class="row pt-5 pb-5">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img src="/imgs/icon_teste.png" alt="" width="50px" height="50px">
-                    </div>
-                    <div class="col-lg-6">
-                        <p class="text-white">sobre</p>
-                        <p class="text-white">contato</p>
-                        <p class="text-white">loja</p>
-                    </div>
+                    <section class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="/imgs/logo-f.png" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="text-white text-uppercase">sobre</p>
+                                <p class="text-white text-uppercase">contato</p>
+                                <p class="text-white text-uppercase">Agenda</p>
+                                <p class="text-white text-uppercase">loja</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-lg-4 text-white">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque deleniti ipsum sunt temporibus possimus iure quis nihil est maxime rerum reprehenderit odit modi nostrum nobis maiores, quaerat quisquam dolore corrupti.</p>
+                    </section>
+                    
+                    <section class="col-lg-4 ps-5">
+                        <div class="row">
+                            <p class="fs-6 text-white text-center">Igreja do Evangelho Quadrangular de Vila Helena</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.666263712812!2d-47.49967178250215!3d-23.472499822484174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f4e5d6f3b1a9%3A0xb3bc7dfdbe7c0762!2sIgreja%20do%20Evangelho%20Quadrangular!5e0!3m2!1spt-BR!2sbr!4v1676753673553!5m2!1spt-BR!2sbr" width="350" height="250" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </section>
                 </div>
-            </section>
-            
-            <section class="col-lg-10">
-
-            </section>
-         </div>
-
+             </div>
         </div>
     </footer>
-        
+    <!--Fim footer-->  
     
 
 

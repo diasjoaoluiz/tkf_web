@@ -6,8 +6,17 @@
     
 }
 
-.carousel-control_image {
-    background: url(/imgs/teste2.jpg) center/cover no-repeat;
+.carousel-control_image-1 {
+    background-image: url(/imgs/car-1.png);
+    background-size: 100% 100%;
+}
+.carousel-control_image-2 {
+    background-image: url(/imgs/car-2.png);
+    background-size: 100% 100%;
+}
+.carousel-control_image-3 {
+    background-image: url(/imgs/car-3.png);
+    background-size: 100% 100%;
 }
 
 @media (min-width: 992px) {
@@ -20,4 +29,36 @@
     .carousel-control {
         height: 20em;
     }
+}
+
+.colors-1 {
+    background-color: rgb(2, 17, 73);
+}
+
+.colors-2 {
+    background-color: rgb(61, 1, 128)
+}
+
+.colors-3 {
+    background-color: rgb(0 0 0);
+}
+
+.colors-4 {
+    background-color: rgb(232, 67, 0);
+}
+
+.colors-degrade-1 {
+    background-image: linear-gradient(#A04DFF, #9132FC, #3D0180);
+}
+
+.fonts-1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fonts-2 {
+    font-family: 'Gloock', serif;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
