@@ -2,8 +2,7 @@
 
 .carousel-control {
     height: 33em;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .carousel-control_image-1 {
@@ -48,7 +47,7 @@
 }
 
 .colors-degrade-1 {
-    background-image: linear-gradient(#A04DFF, #9132FC, #3D0180);
+    background-image: linear-gradient(45deg,rgb(2, 17, 73), black);
 }
 
 .fonts-1 {
