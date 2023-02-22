@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-utilities.css">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/bootstrap/css/mycss.css">
     <title>Pagina Inicial</title>
@@ -18,18 +19,18 @@
     <!--Inicio navbar-->
     <nav class="navbar navbar-expand-lg colors-3" id="navbarNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/imgs/logo-f.png" alt="Bootstrap" width="40%" height="40%">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/imgs/logo-f.png" alt="Logo TKF" width="40%" height="40%">
               </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-              <a class="nav-link text-white" href="#">Features</a>
-              <a class="nav-link text-white" href="#">Pricing</a>
-              <a class="nav-link text-white">Disabled</a>
+              <a class="nav-link active text-white text-uppercase" aria-current="page" href="#">sobre</a>
+              <a class="nav-link text-white text-uppercase" href="#">contato</a>
+              <a class="nav-link text-white text-uppercase" href="#">agenda</a>
+              <a class="nav-link text-white text-uppercase" href="#">loja</a>
             </div>
           </div>
         </div>
@@ -50,9 +51,7 @@
                     <div class="carousel-item active h-100 carousel-control_image-1">
                         
                     </div>
-                    <div class="carousel-item h-100 carousel-control_image-2">
-                        
-                    </div>
+                    <a target="_blank" href="https://www.instagram.com/thekeepers.foursquare/"><div class="carousel-item h-100 carousel-control_image-2"></div></a>
                         <a target="_blank" href="https://chat.whatsapp.com/B91gPpFkijTCxH3uZ74LUo"><div class="carousel-item h-100 carousel-control_image-3"></div></a>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -70,23 +69,19 @@
         
         <!--Inicio sobre The Keepers-->
         <div class="colors-degrade-1 pb-1">
-            <div class="pt-5 pb-5">
+            <div class="pb-5">
                 <div class="container">
                     <div class="row">
-                        <div class="">
-                            <p class="fs-1 text-uppercase text-white fonts-1">Nos somos os The Keepers, jovens da Quadrangular Vila Helena</p>
+                        <p class="pt-4 h1 text-uppercase text-white fonts-1 text-break">Nos somos os The Keepers, jovens da Quadrangular Vila Helena</p>
+                        <div class="col-lg-6">
+                            <img class="float-end img-fluid rounded" src="imgs/tkf_1.jpg" alt="">
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-6">
-                                <div class="colors-1 rounded">
-                                    <p class="h2 col-sm-h5 lh-md pb-3 text-white fonts-2 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestiae dolores beatae, deserunt nobis dignissimos expedita quibusdam ab laudantium assumenda. Autem doloribus placeat ipsa rerum voluptatum at molestias impedit ab!</p>
-                                </div>
-                                <div class="pt-5">
-                                    <button type="button" class="btn btn-lg colors-3 text-white">Veja mais</button>
-                                </div>
+                        <div class="col-lg-6 col-12 pt-2">
+                            <div class="colors-1 rounded">
+                                <p class="h2 col-sm-h5 lh-md pb-3 text-white fonts-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consectetur inventore omnis. Necessitatibus voluptatibus, porro dolor suscipit alias obcaecati numquam quis sunt assumenda minima voluptates laborum exercitationem, adipisci nisi repellat!</p>
                             </div>
-                            <div class="col-lg-6 col-6 pb-5">
-                                <img class="float-end img-fluid" src="imgs/tkf_1.jpg" alt="" width="425">
+                            <div class="pt-2">
+                                <button type="button" class="btn btn-lg colors-3 text-white">Veja mais</button>
                             </div>
                         </div>
                     </div>
@@ -96,22 +91,20 @@
         <!--Fim sobre The Keepers-->
 
         <!--Inicio sobre IEQ-VH-->
-        <div class="bg-warning pb-1">
-            <div class="pt-5 pb-5">
+        <div class="colors-degrade-1 pb-1">
+            <div class="pb-5">
                 <div class="container">
                     <div class="row">
-                        <div>
-                            <p class="fs-1 text-uppercase">quadrangular vila helena, 46 anos transformando vidas</p>
+                        <p class="pt-4 h1 text-uppercase text-white fonts-1 text-break">Quadrangular Vila Helena- Seu lugar é aqui</p>
+                        <div class="col-lg-6">
+                            <video autoplay="true" loop="true" class="ratio" style="--bs-aspect-ratio: 50%;"><source src="/videos/ieq-video.mp4"></video>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <p class="fs-3 text-break pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium optio, porro explicabo placeat corporis, dolorum ratione modi fugiat repudiandae iste exercitationem ad nisi beatae! Nihil quisquam commodi laboriosam dicta similique.</p>
-                                <div class="pt-5">
-                                    <button type="button" class="btn btn-primary btn-lg">Nos acompanhe</button>
-                                </div>
+                        <div class="col-lg-6 col-12 pt-2">
+                            <div class="colors-1 rounded">
+                                <p class="h2 col-sm-h5 lh-md pb-3 text-white fonts-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consectetur inventore omnis. Necessitatibus voluptatibus, porro dolor suscipit alias obcaecati numquam quis sunt assumenda minima voluptates laborum exercitationem, adipisci nisi repellat!</p>
                             </div>
-                            <div class="col-lg-6">
-                                <img class="float-end" src="imgs/tkf_1.jpg" alt="" width="425" height="425">
+                            <div class="pt-2">
+                                <button type="button" class="btn btn-lg colors-3 text-white">Veja mais</button>
                             </div>
                         </div>
                     </div>
@@ -155,31 +148,29 @@
     <footer class="colors-1">
         <div class="container">
             <div class="row pt-5 pb-5">
-                <div class="row">
-                    <section class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="/imgs/logo-f.png" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <p class="text-white text-uppercase">sobre</p>
-                                <p class="text-white text-uppercase">contato</p>
-                                <p class="text-white text-uppercase">Agenda</p>
-                                <p class="text-white text-uppercase">loja</p>
-                            </div>
+                <section class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="/imgs/logo-f.png" alt="">
                         </div>
-                    </section>
-                    <section class="col-lg-4 text-white">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque deleniti ipsum sunt temporibus possimus iure quis nihil est maxime rerum reprehenderit odit modi nostrum nobis maiores, quaerat quisquam dolore corrupti.</p>
-                    </section>
-                    
-                    <section class="col-lg-4 ps-5">
-                        <div class="row">
-                            <p class="fs-6 text-white text-center">Igreja do Evangelho Quadrangular de Vila Helena</p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.666263712812!2d-47.49967178250215!3d-23.472499822484174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f4e5d6f3b1a9%3A0xb3bc7dfdbe7c0762!2sIgreja%20do%20Evangelho%20Quadrangular!5e0!3m2!1spt-BR!2sbr!4v1676753673553!5m2!1spt-BR!2sbr" width="350" height="250" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         <div class="col-lg-6">
+                            <p class="text-white text-uppercase">sobre</p>
+                            <p class="text-white text-uppercase">contato</p>
+                            <p class="text-white text-uppercase">Agenda</p>
+                            <p class="text-white text-uppercase">loja</p>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
+                <section class="col-lg-4 text-white">
+                    <p class="h2 text-center fw-semibold">SOROCABA</p>
+                    <p class="text-center">R. Belo Horizonte, 794 - Vila Helena, Sorocaba - SP, 18066-200</p>
+                </section>
+                <section class="col-lg-4">
+                    <div class="row">
+                         <p class="fs-6 text-white text-center">Igreja do Evangelho Quadrangular de Vila Helena</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.666263712812!2d-47.49967178250215!3d-23.472499822484174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f4e5d6f3b1a9%3A0xb3bc7dfdbe7c0762!2sIgreja%20do%20Evangelho%20Quadrangular!5e0!3m2!1spt-BR!2sbr!4v1676753673553!5m2!1spt-BR!2sbr" width="350" height="250" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
              </div>
         </div>
     </footer>
