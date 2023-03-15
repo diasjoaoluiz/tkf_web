@@ -54,6 +54,10 @@
     background-image: linear-gradient(45deg,rgb(61, 1, 128), black );
 }
 
+.colors-degrade-3 {
+    background-image: linear-gradient(45deg, rgb(61, 1, 128), rgb(2, 17, 73), black);
+}
+
 .fonts-1 {
     font-family: 'Roboto', sans-serif;
 }
@@ -68,4 +72,12 @@
 
 .letter-spacing {
     letter-spacing: 2px;
+}
+
+.btnBorder:hover {
+    background-color: rgb(232, 67, 0); /* cor que desejar */
+}
+
+.borderBottom:hover {
+    border-bottom: solid rgb(232, 67, 0);
 }
