@@ -35,7 +35,7 @@
 }
 
 .colors-2 {
-    background-color: rgb(61, 1, 128)
+    background-color: rgb(61, 1, 128);
 }
 
 .colors-3 {
@@ -44,6 +44,22 @@
 
 .colors-4 {
     background-color: rgb(232, 67, 0);
+}
+
+.fontColors-1 {
+    color: rgb(2, 17, 73);
+}
+
+.fontColors-2 {
+    color: rgb(61, 1, 128);
+}
+
+.fontColors-3 {
+    color: rgb(0 0 0)
+}
+
+.fontColors-4 {
+    color: rgb(232, 67, 0);
 }
 
 .colors-degrade-1 {
@@ -88,4 +104,64 @@
 
 .borderBottom:hover {
     border-bottom: solid rgb(232, 67, 0);
+}
+
+.borderBottom-active {
+    border-bottom: solid rgb(232, 67, 0);
+}
+
+.imgScroll {
+    background: no-repeat center center url('/imgs/car-1.png');
+    background-attachment: fixed;
+    
+}
+
+@media (max-width: 576px) {
+    .imgScroll {
+        background: no-repeat center center url('/imgs/car-1.png');
+        
+        
+    }
+}
+
+.textSize-1 {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .textSize-1 {
+        font-size: 40px;
+    }
+}
+
+.alignText {
+    text-align: justify;
+}
+
+.vh-80 {
+    height: 80vh !important;
+}
+
+.pt-6 {
+    padding-top: 5rem !important;
+}
+
+.pb-6 {
+    padding-bottom: 5rem !important;
+}
+
+@media (max-width: 768px) {
+    .pb-6 {
+        padding-bottom: 2rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .pt-6 {
+        padding-top: 1rem !important;
+    }
+}
+
+.ptx-1 {
+    padding-top: 14rem !important;
 }
