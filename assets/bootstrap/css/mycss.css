@@ -94,6 +94,10 @@
     letter-spacing: 2px;
 }
 
+.letter-spacing-2 {
+    letter-spacing: 4px;
+}
+
 .btnBorder:hover {
     background-color: rgb(232, 67, 0); /* cor que desejar */
 }
@@ -118,9 +122,7 @@
 
 @media (max-width: 576px) {
     .imgScroll {
-        background: no-repeat center center url('/imgs/car-1.png');
-        
-        
+        background: no-repeat center center url('/imgs/car-1.png');    
     }
 }
 
