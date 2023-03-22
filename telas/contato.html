@@ -59,22 +59,22 @@
                 </div>
                 <div class="col-lg-7 fonts-3 pt-lg-0 pt-4">
                     <p class="fs-1 pt-sm-4">Envie uma mensagem</p>
-                    <form action="enviar_email.php" method="POST">
+                    <form action="../assets/phps/enviarEmail.php" method="POST">
                         <div class="mb-2">
                             <label for="nombre" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
                         </div>
                         <div class="mb-2">
                             <label for="email" class="form-label">E-mail</label>
                             <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="mb-2">
-                            <label for="email" class="form-label">Assunto</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
+                            <label for="assunto" class="form-label">Assunto</label>
+                            <input type="text" class="form-control" id="assunto" name="assunto" required>
                         </div>
                         <div class="mb-2">
                             <label for="mensaje" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+                            <textarea class="form-control" id="mensagem" name="mensagem" rows="3" required></textarea>
                         </div>
                         <div class="pt-4">
                             <button type="submit" class="btn colors-4 btn-lg text-black borderBottom btnBorder-1"><img class="pb-1" src="../imgs/email-icon.png" alt="" width="20px"> Enviar</button>
@@ -87,7 +87,7 @@
             <div class="border-top border-3"></div>
         </div>
         
-        <div class="container text-white">
+        <div class="container text-white pt-4">
             <div class="row">
                 <div class="col-lg-6">
                     <p class="fs-1 fw-boldf text-uppercase">Você também pode nos contactar pelas redes sociais</p>

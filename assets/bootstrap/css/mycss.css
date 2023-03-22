@@ -117,14 +117,14 @@
 }
 
 .imgScroll-1 {
-    background: no-repeat center center url('/imgs/car-1.png');
+    background: no-repeat center center url('/imgs/maos.jpg');
     background-attachment: fixed;
     
 }
 
 @media (max-width: 576px) {
     .imgScroll-1 {
-        background: no-repeat center center url('/imgs/car-1.png');    
+        background: no-repeat center center url('/imgs/maos.jpg');    
     }
 }
 
@@ -181,4 +181,3 @@
 .ptx-1 {
     padding-top: 14rem !important;
 }
-
